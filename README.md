@@ -1,7 +1,7 @@
-#🧠 Brain Cancer Classification Using Deep Learning (VGG16 & ResNet50)
+#  🧠 Brain Cancer Classification Using Deep Learning (VGG16 & ResNet50)
 This project leverages transfer learning using VGG16 and ResNet50 to classify brain tumors from MRI images into four categories: glioma, meningioma, pituitary, and notumor. The goal is to assist in early diagnosis and improve accuracy in brain cancer detection.
 
-##📂 Dataset Structure
+## 📂 Dataset Structure
 The dataset should follow this directory structure:
 
 markdown
@@ -21,8 +21,8 @@ Brain_Cancer_Detection/
 Each subfolder contains labeled MRI brain scan images of the respective tumor type.
 
 
-##✅ Features
-##Transfer learning using VGG16 and ResNet50
+## ✅ Features
+## Transfer learning using VGG16 and ResNet50
 
 Fine-tuning with dropout regularization and dense layers
 
@@ -72,7 +72,7 @@ Edit
 model.fit(train_generator, validation_data=val_generator, epochs=10)
 Evaluate performance
 
-##After training, evaluate using:
+## After training, evaluate using:
 
 Classification report
 
@@ -82,8 +82,8 @@ ROC curves
 
 Log loss
 
-##Predict new images
-##Predict MRI images using:
+## Predict new images
+### Predict MRI images using:
 
 python
 Copy
