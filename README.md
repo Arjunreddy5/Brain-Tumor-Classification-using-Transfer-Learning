@@ -48,26 +48,18 @@ Image-level prediction support with confidence score
 ## 🧪 Dependencies
 Install required Python packages:
 
-bash
-Copy
-Edit
 pip install tensorflow numpy matplotlib seaborn scikit-learn keras
 
 ## 🚀 How to Run
 Update dataset paths
 Modify these lines to point to your dataset in the notebook:
 
-python
-Copy
-Edit
 train_dir = '/path/to/Training'
 test_dir = '/path/to/Testing'
 Train the models
+
 The models are trained with 10 epochs using transfer learning:
 
-python
-Copy
-Edit
 model.fit(train_generator, validation_data=val_generator, epochs=10)
 Evaluate performance
 
@@ -84,9 +76,6 @@ Log loss
 ## Predict new images
 ### Predict MRI images using:
 
-python
-Copy
-Edit
 predict_image('/path/to/image.jpg')
 
 ## 📊 Sample Results
@@ -99,16 +88,13 @@ ResNet50	96.7%	0.96	0.96	0.96	0.09
 Note: Your results may vary depending on hardware, batch size, and training dataset variations.
 
 ## 📷 Sample Prediction Output
-makefile
-Copy
-Edit
+
 Prediction: pituitary (97.52%)
 
 ## 💾 Model Files
 Best-performing models are saved at:
 
-Copy
-Edit
+
 Saved_models/
 ├── VGG16_Best_Model.h5
 └── resnet_best_model.h5
