@@ -54,14 +54,16 @@ pip install tensorflow numpy matplotlib seaborn scikit-learn keras
 Update dataset paths
 Modify these lines to point to your dataset in the notebook:
 
-train_dir = '/path/to/Training'
-test_dir = '/path/to/Testing'
-Train the models
+< train_dir = '/path/to/Training'
+< test_dir = '/path/to/Testing'
+
+## Train the models
 
 The models are trained with 10 epochs using transfer learning:
 
-model.fit(train_generator, validation_data=val_generator, epochs=10)
-Evaluate performance
+< model.fit(train_generator,validation_data=val_generator, epochs=10)
+
+## Evaluate performance
 
 ## After training, evaluate using:
 
@@ -76,7 +78,7 @@ Log loss
 ## Predict new images
 ### Predict MRI images using:
 
-predict_image('/path/to/image.jpg')
+< predict_image('/path/to/image.jpg')
 
 ## 📊 Sample Results
 Replace with actual values after training:
@@ -89,7 +91,7 @@ Note: Your results may vary depending on hardware, batch size, and training data
 
 ## 📷 Sample Prediction Output
 
-Prediction: pituitary (97.52%)
+< Prediction: pituitary (97.52%)
 
 ## 💾 Model Files
 Best-performing models are saved at:
