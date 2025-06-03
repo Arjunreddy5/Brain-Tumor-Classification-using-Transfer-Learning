@@ -4,20 +4,19 @@ This project leverages transfer learning using VGG16 and ResNet50 to classify br
 ## 📂 Dataset Structure
 The dataset should follow this directory structure:
 
-markdown
-Copy
-Edit
-Brain_Cancer_Detection/
-├── Training/
-│   ├── glioma/
-│   ├── meningioma/
-│   ├── pituitary/
-│   └── notumor/
-└── Testing/
-    ├── glioma/
-    ├── meningioma/
-    ├── pituitary/
-    └── notumor/
+
+#### Brain_Cancer_Detection/
+#### ├── Training/
+#### │   ├── glioma/
+#### │   ├── meningioma/
+#### │   ├── pituitary/
+#### │   └── notumor/
+#### └── Testing/
+####     ├── glioma/
+####     ├── meningioma/
+####     ├── pituitary/
+####     └── notumor/
+
 Each subfolder contains labeled MRI brain scan images of the respective tumor type.
 
 
